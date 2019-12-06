@@ -7,7 +7,7 @@ const muppet = {
   color: 'green',
   song: 'The Rainbow Connection',
   job: 'Host of The Muppet Show',
-  partner: 'Miss Piggy'
+  partner: 'Miss Piggy',
 };
 
 const k_muppet = {
@@ -29,12 +29,15 @@ const k_muppet = {
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
 
-// 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
+const [moo,neigh,baa,oink,cluck]=farmAnimals.split(' ')
+//oink
+// 2. Bolt the horse wandered off, so just give us four animals, and let's name //them Bessie, Dolly, Babe, and Little.
+const [Bessie, ,Dolly,Babe,Little]=farmAnimals.split(' ')
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
-
+const [black_and_white, ,black,pink]=farmAnimals.split(' ')
 // Arrays
-
+const[red, orange, yellow, green, blue, indigo, violet]=
 // 4. Use destructuring to assign appropriate variables using the color names.
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
@@ -47,3 +50,4 @@ const k_muppet = {
 
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+//const song_2=k_muppet.k_color,k_muppet.the_muppet_movie.song_2,k_muppet//.the_muppet_movie.song_4;
