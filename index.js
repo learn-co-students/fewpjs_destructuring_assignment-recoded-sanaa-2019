@@ -48,8 +48,8 @@ const [ , , , , ,indg]=colors
 // Objects
 const { name , color ,song,job ,partner}=muppet;
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
-const song_2
-,song_4,k_job,k_partner]=k_muppet.the_muppet_movie;
+const song_2=k_muppet.the_muppet_movie;
+//,song_4,k_job,k_partner]=k_muppet.the_muppet_movie;
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 //const song_2=k_muppet.k_color,k_muppet.the_muppet_movie.song_2,k_muppet//.the_muppet_movie.song_4;
