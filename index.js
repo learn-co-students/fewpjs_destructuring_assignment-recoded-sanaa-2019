@@ -46,7 +46,7 @@ const [r, o, y, g, b, i, v]=colors
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
 const [ , , , , ,indg]=colors
 // Objects
-const { name , color ,songs ,job ,partner}=muppet;
+const { name , color ,song,job ,partner}=muppet;
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
 
 
