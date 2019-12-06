@@ -40,7 +40,7 @@ const [black_and_white, ,black,pink]=farmAnimals.split(' ')
 const [red, orange, yellow, green, blue, indigo, violet]=colors
 
 // 4. Use destructuring to assign appropriate variables using the color names.
-
+const [r, o, y, g, b i, v]=colors
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
